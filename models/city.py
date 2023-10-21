@@ -1,12 +1,11 @@
 #!/usr/bin/python
-""" holds class City"""
-import models
-from models.base_model import BaseModel, Base
-from os import getenv
+""" all of the  holds class_City"""
 import sqlalchemy
 from sqlalchemy import Column, String, ForeignKey
 from sqlalchemy.orm import relationship
-
+import models
+from models.base_model import BaseModel, Base
+from os import getenv
 
 class City(BaseModel, Base):
     """Representation of city """
