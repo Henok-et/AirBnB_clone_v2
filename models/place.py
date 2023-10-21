@@ -1,11 +1,11 @@
 #!/usr/bin/python
-""" holds class Place"""
-import models
-from models.base_model import BaseModel, Base
-from os import getenv
+""" All of the holds class Place"""
 import sqlalchemy
 from sqlalchemy import Column, String, Integer, Float, ForeignKey, Table
 from sqlalchemy.orm import relationship
+import models
+from models.base_model import BaseModel, Base
+from os import getenv
 
 if models.storage_t == 'db':
     place_amenity = Table('place_amenity', Base.metadata,
