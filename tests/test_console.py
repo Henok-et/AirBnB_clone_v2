@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Contains the class TestConsoleDocs
+Contains All of the class TestConsoleDocs
 """
-
-import console
-import inspect
 import pep8
 import unittest
+import console
+import inspect
+
 HBNBCommand = console.HBNBCommand
 
 
