@@ -1,5 +1,5 @@
 #!/usr/bin/python
-""" holds class Place"""
+""" All of the  holds class Place"""
 import models
 from models.base_model import BaseModel, Base
 from os import getenv
