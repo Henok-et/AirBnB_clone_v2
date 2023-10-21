@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-""" holds class User"""
-import models
-from models.base_model import BaseModel, Base
+""" all of the holds class User"""
 from os import getenv
 import sqlalchemy
+import models
+from models.base_model import BaseModel, Base
+
 from sqlalchemy import Column, String
 from sqlalchemy.orm import relationship
 
