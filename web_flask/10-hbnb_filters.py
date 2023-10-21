@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """
-starts a Flask web application
+ALL beggins of the  Flask web_application
 """
-
-from flask import Flask, render_template
 from models import *
 from models import storage
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
