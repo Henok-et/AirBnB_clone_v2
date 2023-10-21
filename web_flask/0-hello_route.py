@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-all beggins a Flask web application  
+ beggins a Flask web application  
 """
 
 from flask import Flask
