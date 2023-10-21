@@ -1,9 +1,9 @@
 #!/usr/bin/python
-""" holds class Review"""
-import models
-from models.base_model import BaseModel, Base
+""" all of the holds class Review"""
 from os import getenv
 import sqlalchemy
+import models
+from models.base_model import BaseModel, Base
 from sqlalchemy import Column, String, ForeignKey
 
 
