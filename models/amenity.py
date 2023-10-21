@@ -1,12 +1,11 @@
 #!/usr/bin/python
-""" holds class Amenity"""
-import models
-from models.base_model import BaseModel, Base
+""" all of the holds class Amenity"""
 from os import getenv
 import sqlalchemy
 from sqlalchemy import Column, String
 from sqlalchemy.orm import relationship
-
+import models
+from models.base_model import BaseModel, Base
 
 class Amenity(BaseModel, Base):
     """Representation of Amenity """
