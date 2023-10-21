@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-""" holds class User"""
-import models
-from models.base_model import BaseModel, Base
-from os import getenv
+""" All of the holds class User"""
 import sqlalchemy
 from sqlalchemy import Column, String
 from sqlalchemy.orm import relationship
-
+import models
+from models.base_model import BaseModel, Base
+from os import getenv
 
 class User(BaseModel, Base):
     """Representation of a user """
