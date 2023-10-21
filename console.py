@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" all file of the console.python """
+""" all of the  file of the console.py """
 import cmd
 from models.place import Place
 from models.review import Review
